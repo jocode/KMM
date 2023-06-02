@@ -57,3 +57,14 @@ If not work, install with brew way
 - **`brew install cocoapods`**
 - **`brew link --overwrite cocoapods`**
 - **`brew unlink cocoapods && brew link cocoapods`**
+
+En el caso que le aparezca este error
+
+> Xcode
+> Xcode requires to perform the First Launch tasks
+
+Se puede corregir colocando 
+
+- `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+
+Para más información visitar https://github.com/Kotlin/kdoctor/issues/34
